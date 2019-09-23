@@ -1,10 +1,10 @@
 
 
-´´´sh
+```sh
 node dist/bundeled-with-wollup-cjs-not-working
-´´´
+```
 
-´´´
+```
     return navigator.userAgent;
     ^
 
@@ -17,13 +17,13 @@ ReferenceError: navigator is not defined
     at Function.Module._load (internal/modules/cjs/loader.js:703:12)
     at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)
     at internal/main/run_main_module.js:17:11
-´´´
+```
 
 
 
-´´´sh
+```sh
 node dist/bundeled-with-wollup-cjs-external-workaround
-´´´
+```
 
 ```
 Node.js/12.10.0 (macOS Mojave; x64)
