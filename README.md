@@ -1,16 +1,17 @@
 
 
 ```sh
-node dist/bundeled-with-wollup-cjs-not-working
+node dist/bundeled-with-rollup-cjs-not-working
 ```
 
 ```
+/Users/markus/build/universal-user-agent-bundler-problems/dist/bundeled-with-rollup-cjs-not-working:4
     return navigator.userAgent;
     ^
 
 ReferenceError: navigator is not defined
-    at getUserAgent (/Users/markus/build/universal-user-agent-bundler-problems/dist/bundeled-with-wollup-cjs-not-working:4:5)
-    at Object.<anonymous> (/Users/markus/build/universal-user-agent-bundler-problems/dist/bundeled-with-wollup-cjs-not-working:7:13)
+    at getUserAgent (/Users/markus/build/universal-user-agent-bundler-problems/dist/bundeled-with-rollup-cjs-not-working:4:5)
+    at Object.<anonymous> (/Users/markus/build/universal-user-agent-bundler-problems/dist/bundeled-with-rollup-cjs-not-working:7:13)
     at Module._compile (internal/modules/cjs/loader.js:936:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
     at Module.load (internal/modules/cjs/loader.js:790:32)
@@ -22,7 +23,7 @@ ReferenceError: navigator is not defined
 
 
 ```sh
-node dist/bundeled-with-wollup-cjs-external-workaround
+node dist/bundeled-with-rollup-cjs-external-workaround
 ```
 
 ```
