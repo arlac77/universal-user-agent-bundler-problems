@@ -1,18 +1,18 @@
 {
-    "name": "universal-user-agent-bundler-problems",
-    "version": "0.0.0-semantic-release",
-    "description": "",
-    "module": "index.mjs",
-    "scripts": {
-        "prepare": "rollup -c"
-    },
-    "devDependencies": {
-        "rollup": "^1.21.4",
-        "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "rollup-plugin-virtual": "^1.0.1"
-    },
-    "dependencies": {
-        "universal-user-agent": "^4.0.0"
-    }
+  "name": "universal-user-agent-bundler-problems",
+  "version": "0.0.0-semantic-release",
+  "description": "",
+  "module": "index.mjs",
+  "scripts": {
+    "prepare": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.21.4",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-virtual": "^1.0.1"
+  },
+  "dependencies": {
+    "universal-user-agent": "^4.0.0"
+  }
 }
